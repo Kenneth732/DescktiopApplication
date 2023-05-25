@@ -1,13 +1,15 @@
+import sys
 from PyQt6.QtWidgets import QApplication, QWidget
 
+
+# create the QApplication
 app = QApplication(sys.argv)
 
-window = QWidget(windowTitle="Hello Kenneth")
+# create the main window
+window = QWidget(windowTitle='Hello World')
 window.show()
 
-# app.exec()
-
+# start the event loop
 sys.exit(app.exec())
-
-
 # python3 main.py
+# pip install PyQt6
